@@ -19,7 +19,6 @@
 		<version.maven-war-plugin>2.3</version.maven-war-plugin>
 
 		<version.guava>17.0</version.guava>
-		<version.guice>3.0</version.guice>
 
 		<version.slf4j>1.7.7</version.slf4j>
 		<version.logback>1.1.2</version.logback>
@@ -47,12 +46,6 @@
 				<artifactId>guava</artifactId>
 				<version>${version.guava}</version>
 			</dependency>
-			<dependency>
-				<groupId>com.google.inject</groupId>
-				<artifactId>guice</artifactId>
-				<version>${version.guice}</version>
-			</dependency>
-			
 		
 			<dependency>
 				<groupId>org.slf4j</groupId>
